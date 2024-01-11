@@ -1,0 +1,29 @@
+body{
+    max-width: 80%;
+    height: auto;
+}
+.lista{ 
+    list-style: none;
+}
+.slika1{
+    height: 30%;
+    width:50%;
+}
+.slika2{
+    height: 30%;
+    width: 50%;
+}
+p{
+    font-family:  sans-serif;
+    color: red;
+    max-width: 80%;
+}
+a{
+    color: red;
+}
+ a:visited{
+    color:green;
+}
+ a:hover{
+    color:blue;
+}

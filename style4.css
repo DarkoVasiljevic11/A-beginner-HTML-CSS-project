@@ -1,0 +1,25 @@
+body{
+    max-width: 80%;
+    height: auto;
+}
+input[type=submit]{
+ background-color: blueviolet;
+ color: white;
+ cursor:pointer;
+}
+input[type=text] {
+background-color: white;
+
+}
+input[type=text]:focus {
+background-color: blue;
+}
+a{
+    color: red;
+}
+ a:visited{
+    color:green;
+}
+ a:hover{
+    color:blue;
+}

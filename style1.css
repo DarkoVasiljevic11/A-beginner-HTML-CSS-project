@@ -1,0 +1,73 @@
+body{
+    max-width: 70%;
+    height: auto;
+   
+}
+.h1,h2{ 
+    color:red;
+    font-family:  sans-serif;
+    font-weight:strong;
+    
+}
+@keyframes pokret{
+ from {left:700px;}
+ to {right:0px;}
+ 
+}
+@keyframes pokret1{
+    from{left:700px;}
+    to{right:0px;}
+}
+.cyberpunk{
+    height:30%;
+    width:50%;
+    position:relative;
+    animation: pokret 5s infinite 3s ;
+    -webkit-animation:pokret 5s infinite 3s;
+}
+.witcher3{
+    height: 30%;
+    width: 50%;
+    position: relative;
+    animation: pokret1 5s infinite 3s;
+    -webkit-animation:pokret 5s infinite 3s;
+}
+@media screen and (max-width:200px) {
+    .cyberpunk{
+        display: none;
+    }
+    .witcher3{
+        display:none;
+    }
+}
+p{
+    font-family:  sans-serif;
+    font-style: italic;
+
+}
+.lista{
+    list-style: none;
+    text-decoration: underline wavy;
+ 
+}
+.navi a{
+    color: red;
+    font-weight: bold;
+    display: inline ;
+ 
+}
+.navi a:visited{ 
+    color: green;
+}
+.navi a:hover{
+    color: blue;
+}
+.navi{
+    overflow: hidden;
+}
+@media screen and (max-width:400px) {
+    .navi a{
+        display:list-item;
+    }
+    
+}
